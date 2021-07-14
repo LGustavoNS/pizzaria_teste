@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pizzaria XDS</string>
+    <string name="entrar">Entrar</string>
+    <string name="loginUser">usuário</string>
+    <string name="senha">senha</string>
+    <string name="search">Search</string>
+    <string name="escolha_seu">Escolha seu sabor</string>
+    <string name="pizza_de_pe">Pizza de Peperoni</string>
+    <string name="a_apartir_de">a partir de:</string>
+    <string name="r_29_99">R$ 29,99</string>
+    <string name="escolha_tamanho">Escolha o tamanho</string>
+    <string name="compra_efet">Compra efetuada com sucesso!</string>
+    <string name="voltar">Voltar</string>
+
+</resources>

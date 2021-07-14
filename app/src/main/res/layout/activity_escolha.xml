@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_escolha"
+    tools:context=".activity.EscolhaActivity">
+
+    <EditText
+        android:id="@+id/editTxtPesquisa"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="343dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="662dp"
+        android:background="@drawable/background_txt_escolha"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/srchPesquisa"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/editTxtPesquisa"
+        android:layout_alignTop="@+id/editTxtPesquisa"
+        android:layout_alignEnd="@+id/editTxtPesquisa"
+        android:layout_alignBottom="@+id/editTxtPesquisa"
+        android:layout_marginStart="10.18dp"
+        android:layout_marginTop="10.98dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTxtPesquisa"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPesquisa"
+        app:layout_constraintTop_toTopOf="@+id/editTxtPesquisa"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtSearch"
+        android:layout_width="297dp"
+        android:layout_height="22dp"
+        android:layout_alignStart="@+id/editTxtPesquisa"
+        android:layout_alignTop="@+id/editTxtPesquisa"
+        android:layout_alignEnd="@+id/editTxtPesquisa"
+        android:layout_alignBottom="@+id/editTxtPesquisa"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="top"
+        android:hint="@string/search"
+        app:layout_constraintBottom_toBottomOf="@+id/editTxtPesquisa"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPesquisa"
+        app:layout_constraintStart_toEndOf="@+id/srchPesquisa"
+        app:layout_constraintTop_toTopOf="@+id/editTxtPesquisa" />
+
+    <TextView
+        android:id="@+id/txtEscolha"
+        android:layout_width="131dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="654dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/escolha_seu"
+        android:textAppearance="@style/escolha_seu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <RelativeLayout
+        android:id="@+id/card_pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="496dp"
+        android:background="@drawable/background_escolha_seu_sabor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgPeperoni"
+            android:layout_width="175dp"
+            android:layout_height="106dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="171dp"
+            android:layout_marginRight="206dp"
+            android:background="@drawable/peperoni" />
+
+        <TextView
+            android:id="@+id/txtPizzaPeperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="182dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="63dp"
+            android:gravity="clip_horizontal|top"
+            android:text="@string/pizza_de_pe"
+            android:textAppearance="@style/pizza_de_pe" />
+
+        <TextView
+            android:id="@+id/txt_a_patir_de"
+            android:layout_width="58px"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="181.47dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="105.53dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/a_apartir_de"
+            android:textAppearance="@style/a_partir_de" />
+
+        <TextView
+            android:id="@+id/txtRDinheiro"
+            android:layout_width="69dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="181.47dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="101.53dp"
+            android:layout_marginBottom="23dp"
+            android:text="@string/r_29_99"
+            android:textAppearance="@style/r_29_99" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

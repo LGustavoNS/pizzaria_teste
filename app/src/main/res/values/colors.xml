@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#7AC64F</color>
+    <style name="entrar">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#F5F5F5</item>
+    </style>
+    <style name="escolha_seu">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F5F5F5</item>
+    </style>
+    <style name="pizza_de_pe">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="a_partir_de">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="r_29_99">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="pizza_de_p">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="escolha_tamanho">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="r_29_99_D">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="compra_efet">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+    <style name="voltar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+
+</resources>

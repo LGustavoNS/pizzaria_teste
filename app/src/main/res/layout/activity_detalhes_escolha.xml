@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detalhe"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_detalhe"
+    tools:context=".activity.DetalhesEscolha">
+
+
+    <ImageView
+        android:id="@+id/imgPizzaPe"
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="358dp"
+        android:background="@drawable/background_imagem_peperoni"
+        app:srcCompat="@drawable/peperoni_detalhes" />
+
+    <TextView
+        android:id="@+id/txtPizza_d_pe"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginEnd="160dp"
+        android:gravity="clip_horizontal|top"
+        android:text="@string/pizza_de_pe"
+        android:textAppearance="@style/pizza_de_p"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/starsAvaliacao"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPizza_d_pe"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="260dp"
+        android:numStars="3"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/txtEscolhaTamanho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="477dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="235dp"
+        android:text="@string/escolha_tamanho"
+        android:textAppearance="@style/escolha_tamanho"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTamanhoP"
+        android:layout_width="79.18dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginBottom="161dp"
+        android:text="P" />
+
+    <Button
+        android:id="@+id/btnTamanhoM"
+        android:layout_width="79.18dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginBottom="161dp"
+        android:text="M" />
+
+    <Button
+        android:id="@+id/btnTamanhoP3"
+        android:layout_width="79.18dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginBottom="161dp"
+        android:text="G" />
+
+    <TextView
+        android:id="@+id/txtPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="104dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/r_29_99"
+        android:textAppearance="@style/r_29_99_D"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="376dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Comprar"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
